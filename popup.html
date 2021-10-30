@@ -1,16 +1,22 @@
 <!doctype html>
 <html>
-  <!-- <head>
-    <title>Task Slayer</title>
-    <script src="popup.js"></script>
+  <head>
+    <script>
+      var counter= 4;
+      
+      function addelement() {
+      var completelist= document.getElementById("thelist");
+      
+      completelist.innerHTML += "<li>Item " + counter + "</li>";
+      counter++;
+      }
+      </script>
   </head>
-  <body>
-    <h1>Task Slayer</h1>
-    <button id="check">Add a !</button>
-  </body> -->
+  
 
-  <script src="popup.js"></script>
+  <!-- <script src="popup.js"></script> -->
 
+<body>
   <button onclick="addelement();">Add Item</button>
 
   <br/><br/>
@@ -20,16 +26,17 @@
   <li>Item 3</li>
   </ul>
   
-
+</body>
 </html>
 
-<script>
-  var counter= 4;
-  
-  function addelement() {
-  var completelist= document.getElementById("thelist");
-  
-  completelist.innerHTML += "<li>Item " + counter + "</li>";
-  counter++;
-  }
-  </script>
+
+
+
+<!-- <head>
+    <title>Task Slayer</title>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>Task Slayer</h1>
+    <button id="check">Add a !</button>
+  </body> -->
