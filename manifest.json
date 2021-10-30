@@ -1,5 +1,5 @@
 {
-    "manifest_version" : 3,
+    "manifest_version" : 2,
     "name" : "Task Slayer",
     "version" : "0.0.1",
     "description" : "Keep track and defeat your tasks with the help of your knight!",
