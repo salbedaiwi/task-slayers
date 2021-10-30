@@ -1,32 +1,33 @@
 <!doctype html>
-<html>
-  <head>
-    <script>
-      var counter= 4;
-      
-      function addelement() {
-      var completelist= document.getElementById("thelist");
-      
-      completelist.innerHTML += "<li>Item " + counter + "</li>";
-      counter++;
-      }
-      </script>
-  </head>
+  <html>
+    <head>
+      <!-- <script>
+        var counter= 4;
+        
+        function addelement() {
+          var completelist= document.getElementById("thelist");
+          
+          completelist.innerHTML += "<li>Item " + counter + "</li>";
+          counter++;
+        }
+        </script> -->
+        <script src="popup.js"></script>
+    </head>
   
 
-  <!-- <script src="popup.js"></script> -->
-
-<body>
-  <button onclick="addelement();">Add Item</button>
-
-  <br/><br/>
-  <ul id="thelist">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  </ul>
   
-</body>
+
+  <body>
+    <button onclick="addelement();">Add Item</button>
+
+    <br/><br/>
+    <ul id="thelist">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    </ul>
+    
+  </body>
 </html>
 
 
