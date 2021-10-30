@@ -1,10 +1,11 @@
 {
     "manifest_version" : 2,
     "name" : "Task Slayer",
-    "version" : "0.0.1",
+    "version" : "1.0.0",
     "description" : "Keep track and defeat your tasks with the help of your knight!",
 
     "browser_action" : {
+        "default_icon" : "slayer.png",
         "default_popup" : "popup.html"
     }, 
 
