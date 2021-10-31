@@ -11,23 +11,47 @@
           counter++;
         }
         </script> -->
+      
         <title>Task Slayer</title>
-        <script src="popup.js"></script>
+        <script src="./popup.js"></script>
+        <link rel = "stylesheet" href="style.css" type="text/css"/>
+
+
     </head>
   
 
   
 
   <body>
-    <button onclick="addelement();">Add Item</button>
+    <!-- <button onclick="addelement();">Add Item</button> -->
 
-    <br/><br/>
+    <!-- <br/><br/>
     <ul id="thelist">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
-    </ul>
+    </ul> -->
     
+    <div class = "container">
+      <div class = "row">
+      <div class= "col-12">
+          <h1>Task Slayer</h1>
+          <hr>
+
+          <div class = "input-group">
+            <input type = "text" class = "form-control" id="candidate" >
+            
+            <div class = "input-group-append">
+              <button onclick= "addItem()" class = "btn btn-add" type="button" >Add Item</button>
+              <button onclick= "removeItem()" class = "btn btn-remove" type="button" >Remove Item</button>
+
+            </div>
+          </div>
+          <ul id = "dynamic-list">
+            <li>homework</li>
+          </ul>
+      </div>
+    </div>
   </body>
 </html>
 

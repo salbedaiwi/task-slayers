@@ -1,14 +1,18 @@
-var testButton = document.createElement("BUTTON");
-testButton.innerHTML = "THIS DOES NOTHING";
-document.body.appendChild(testButton);
+// var testButton = document.createElement("BUTTON");
+// testButton.innerHTML = "THIS DOES NOTHING";
+// document.body.appendChild(testButton);
 
 //<script>
-var counter= 4;
+// var counter= 4;
 
-function addelement() {
-    var completelist = document.getElementById("thelist");
-
-    completelist.innerHTML += "<li>Item " + counter + "</li>";
-    counter++;
+function addItem() {
+    var ul = document.getElementById("dynamic-list");
+    var candidate = document.getElementById("candidate");
+    var li = document.createElement("li");
+    li.setAttribute('id', candidate.value);
+    li.appendChild(document.createTextNode(candidate.value));
+    ul.appendChild(li);
+    // ul.innerHTML += "<li>Item " + counter + "</li>";
+    // counter++;
 }
 //</script>

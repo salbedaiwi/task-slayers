@@ -3,7 +3,7 @@
     "name" : "Task Slayer",
     "version" : "1.0.0",
     "description" : "Keep track and defeat your tasks with the help of your knight!",
-
+    
     "browser_action" : {
         "default_icon" : "icon.png",
         "default_popup" : "popup.html"
