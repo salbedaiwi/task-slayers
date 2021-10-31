@@ -23,3 +23,4 @@ var addBTN = document.getElementById("addItem");
         li.appendChild(document.createTextNode(candidate.value));
         ul.appendChild(li);
     });
+
