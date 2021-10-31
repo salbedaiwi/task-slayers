@@ -4,14 +4,13 @@ body {
     background: rgb(195,34,167);
     background: linear-gradient(0deg, rgba(195,34,167,1) 0%, rgba(253,187,45,1) 97%);
 }
-
-.btn-add{
+#addItem{
 
     background-color: rgb(14, 130, 66);
     color: aliceblue;
     padding: 0px 64px;
 }
-.btn-remove{
+#removeItem{
 
     background-color: rgb(187, 12, 73);
     color: aliceblue;
