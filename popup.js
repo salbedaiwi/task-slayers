@@ -3,8 +3,6 @@
 // document.body.appendChild(testButton);
 
 //<script>
-// var counter= 4;
-
 function addItem() {
     var ul = document.getElementById("dynamic-list");
     var candidate = document.getElementById("candidate");
